@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Warehouse Facility",
+    "segment_name": "Warehouse",
+    "description": "Spacious warehouse suitable for storage and distribution purposes.",
+    "price": {
+      "amount": 5000,
+      "currency": "USD"
+    },
+    "status": "rent",
+    "area": {
+      "value": 2000,
+      "unit": "sq ft"
+    },
+    "location": "City X, State Y",
+    "facilities": ["loading docks", "large storage space", "security system"],
+    "image": "path/to/image1.jpg"
+  },
+  {
+    "id": 2,
+    "estate_title": "Factory Complex",
+    "segment_name": "Factory",
+    "description": "State-of-the-art factory with modern equipment for manufacturing processes.",
+    "price": {
+      "amount": 1000000,
+      "currency": "USD"
+    },
+    "status": "sale",
+    "area": {
+      "value": 50000,
+      "unit": "sq ft"
+    },
+    "location": "Industrial Zone Z, State W",
+    "facilities": ["production lines", "warehousing space", "office area"],
+    "image": "path/to/image2.jpg"
+  },
+  {
+    "id": 3,
+    "estate_title": "Cold Storage Facility",
+    "segment_name": "Cold Storage",
+    "description": "Temperature-controlled facility suitable for storing perishable goods.",
+    "price": {
+      "amount": 8000,
+      "currency": "USD"
+    },
+    "status": "rent",
+    "area": {
+      "value": 3000,
+      "unit": "sq ft"
+    },
+    "location": "Cold Chain Zone, State V",
+    "facilities": ["climate control", "pallet racking", "freezer units"],
+    "image": "path/to/image3.jpg"
+  },
+  {
+    "id": 4,
+    "estate_title": "Production Plant",
+    "segment_name": "Production Plant",
+    "description": "Modern production facility equipped for large-scale manufacturing.",
+    "price": {
+      "amount": 15000000,
+      "currency": "USD"
+    },
+    "status": "sale",
+    "area": {
+      "value": 100000,
+      "unit": "sq ft"
+    },
+    "location": "Industrial District, State X",
+    "facilities": [
+      "assembly lines",
+      "quality control labs",
+      "employee facilities"
+    ],
+    "image": "path/to/image4.jpg"
+  },
+  {
+    "id": 5,
+    "estate_title": "Industrial Park Lot",
+    "segment_name": "Industrial Park",
+    "description": "Vacant lot within a bustling industrial park, ideal for development.",
+    "price": {
+      "amount": 200000,
+      "currency": "USD"
+    },
+    "status": "sale",
+    "area": {
+      "value": 50000,
+      "unit": "sq ft"
+    },
+    "location": "Industrial Park, State Z",
+    "facilities": ["utilities connections", "road access"],
+    "image": "path/to/image5.jpg"
+  },
+  {
+    "id": 6,
+    "estate_title": "Power Plant Facility",
+    "segment_name": "Power Plant",
+    "description": "Large-scale power generation facility capable of supplying electricity to a city.",
+    "price": {
+      "amount": 50000000,
+      "currency": "USD"
+    },
+    "status": "sale",
+    "area": {
+      "value": 500000,
+      "unit": "sq ft"
+    },
+    "location": "Power Plant Zone, State Y",
+    "facilities": ["generation units", "transformers", "control room"],
+    "image": "path/to/image6.jpg"
+  },
+  {
+    "id": 7,
+    "estate_title": "Large-scale Industrial Complex",
+    "segment_name": "Industrial Complex",
+    "description": "Comprehensive industrial complex with various facilities for manufacturing and logistics.",
+    "price": {
+      "amount": 200000000,
+      "currency": "USD"
+    },
+    "status": "sale",
+    "area": {
+      "value": 1000000,
+      "unit": "sq ft"
+    },
+    "location": "Industrial Zone, State W",
+    "facilities": [
+      "multiple factories",
+      "warehouses",
+      "administrative buildings"
+    ],
+    "image": "path/to/image7.jpg"
+  },
+  {
+    "id": 8,
+    "estate_title": "High-capacity Cold Storage Facility",
+    "segment_name": "Cold Storage",
+    "description": "Specialized cold storage facility with high-capacity refrigeration units.",
+    "price": {
+      "amount": 12000,
+      "currency": "USD"
+    },
+    "status": "rent",
+    "area": {
+      "value": 5000,
+      "unit": "sq ft"
+    },
+    "location": "Cold Storage District, State X",
+    "facilities": ["large freezer units", "cold rooms", "loading docks"],
+    "image": "path/to/image8.jpg"
+  },
+  {
+    "id": 9,
+    "estate_title": "Industrial Land for Development",
+    "segment_name": "Industrial Land",
+    "description": "Expansive tract of industrial land suitable for development into factories or warehouses.",
+    "price": {
+      "amount": 300000,
+      "currency": "USD"
+    },
+    "status": "sale",
+    "area": {
+      "value": 500000,
+      "unit": "sq ft"
+    },
+    "location": "Industrial Zone, State Z",
+    "facilities": ["undeveloped land", "access to utilities"],
+    "image": "path/to/image9.jpg"
+  }
+]
