@@ -1,6 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
+import useAuthHooks from "../Hooks/useAuthHooks";
 
 const Navbar = () => {
+  const { logout, user } = useAuthHooks();
   return (
     <div className="max-w-6xl bg-red-500">
       <div className="navbar">
@@ -66,27 +68,36 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <div className="dropdown dropdown-end">
-            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-              <div className="w-10 rounded-full">
-                <img src="https://i.ibb.co/tspH3rJ/user.jpg" />
-              </div>
-            </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              <li>
-                <button className="btn btn-sm  btn-ghost"></button>
-              </li>
-              <li>
-                <button className="btn btn-sm  btn-ghost">Logout</button>
-              </li>
-            </ul>
-          </div>
-          <Link to="/login">
-            <button className="btn btn-sm  btn-ghost">Login</button>
-          </Link>
+          {user ? (
+            <div className="dropdown dropdown-end">
+              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                <div className="w-10 rounded-full">
+                  <img
+                    src={user?.photoURL || "https://i.ibb.co/tspH3rJ/user.jpg"}
+                  />
+                </div>
+              </label>
+              <ul
+                tabIndex={0}
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <button className="btn btn-sm  btn-ghost">
+                    {user?.displayName || "user name not found"}
+                  </button>
+                </li>
+                <li>
+                  <button onClick={logout} className="btn btn-sm  btn-ghost">
+                    Logout
+                  </button>
+                </li>
+              </ul>
+            </div>
+          ) : (
+            <Link to="/login">
+              <button className="btn btn-sm  btn-ghost">Login</button>
+            </Link>
+          )}
         </div>
       </div>
     </div>
