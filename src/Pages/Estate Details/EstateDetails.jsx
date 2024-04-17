@@ -1,13 +1,4 @@
-// import { useLoaderData } from "react-router-dom";
-
-import { useParams } from "react-router-dom";
-
 const EstateDetails = () => {
-  // const estates = useLoaderData();
-  // const { segment_name, description, price, image } = estates;
-  const { id, estate_title } = useParams();
-  console.log(estate_title);
-  console.log(id);
   return (
     <>
       <div
