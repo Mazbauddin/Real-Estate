@@ -10,48 +10,23 @@ const EstateDetails = () => {
   console.log(id);
   return (
     <>
-      {/* <img
-        src="https://capricathemes.com/opencart/OPC09/OPC090220/image/cache/catalog/main-banner-1-1903x680.jpg"
-        alt=""
-      />
-      <div className="grid grid-cols-1 md:grid-cols-2 md:h-[680px]">
-        <div className=" flex justify-center items-center bg-white">
-          <img src={estates.image} alt="" />
-        </div>
-
-        <div className=" bg-black text-white flex items-center">
-          <div className=" bg-black h-auto md:h-[90%] md:-ml-24  p-4">
-            <h1 className="text-5xl font-bold mb-8">{estates.segment_name}</h1>
-            <p>{estates.description}</p>
-            <p>
-              GKB Optical online store brings in the best assortment of
-              sunglasses. You can get a sunglass based on your lifestyle,
-              fashion and requirements.{" "}
-            </p>
-
-            <h1 className="text-4xl font-bold my-4">${estates.price}</h1>
-            <br />
-            <button className="btn">Buy it now!</button>
-          </div>
-        </div>
-      </div> */}
-
-      {/* banner area */}
       <div
-        className="hero min-h-screen mt-20"
+        className="hero min-h-screen"
         style={{
-          backgroundImage:
-            "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+          backgroundImage: "url(https://i.ibb.co/7yTtrBF/power-plant.png)",
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+            <h1 className="mb-5 text-5xl font-bold"> Gas Power Plant </h1>
             <p className="mb-5">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              The Gas Power Plant stood like a metallic fortress against the
+              skyline, its towering smokestacks belching plumes of industrial
+              might into the air. Rows of buildings stretched into the distance,
+              a labyrinth of concrete and steel where the pulse of machinery
+              reverberated through every inch of space. Within its walls, a
+              symphony of activity unfolded.
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
@@ -59,34 +34,60 @@ const EstateDetails = () => {
       </div>
       {/* banner end */}
       {/* details card */}
-      <div className="hero min-h-screen bg-base-200">
-        <div className="hero-content flex-col lg:flex-row">
+      <div className="hero min-h-screen bg-base-200 my-20">
+        <div className="hero-content grid grid-cols-1 lg:grid-cols-2">
           <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            className="max-w-sm rounded-lg shadow-2xl"
+            src="https://i.ibb.co/pyMG4TG/factory.jpg"
+            className="w-full h-full rounded-lg"
           />
           <div>
-            <h1 className="text-5xl font-bold">Box Office News!</h1>
+            <h1 className="text-5xl font-bold">Factory Complex</h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              The factory complex stood like a metallic fortress against the
+              skyline, its towering smokestacks belching plumes of industrial
+              might into the air. Rows of buildings stretched into the distance,
+              a labyrinth of concrete and steel where the pulse of machinery
+              reverberated through every inch of space. Within its walls, a
+              symphony of activity unfolded. Conveyor belts hummed with
+              ceaseless motion, transporting raw materials to be molded and
+              shaped by the hands of automation. Workers clad in protective gear
+              moved with precision, their tasks synchronized to the rhythm of
+              the assembly line. Amidst the clang of metal and the hiss of
+              steam, innovation took form. Engineers huddled over blueprints,
+              their minds alight with the possibilities of progress.
+              Technological marvels emerged from the depths of the factory
+              floor, each one a testament to human ingenuity and the relentless
+              pursuit of efficiency. Yet, beneath the veneer of productivity,
+              shadows lingered. The air carried the scent of industry's toll, a
+              reminder of the sacrifices made in the name of progress. Workers
+              toiled under harsh conditions, their faces etched with weariness
+              as they labored to keep the wheels of commerce turning. Outside
+              the confines of the complex, the landscape bore the scars of its
+              presence. Rivers ran thick with pollutants, the land marred by the
+              footprint of progress. Yet, amidst the bleakness, there remained a
+              glimmer of hope—a belief that within these walls, solutions could
+              be found, and a brighter future forged from the fires of industry.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <p className="absolute top-3 left-5 bg-red-500 opacity-60 w-[70px] text-center text-white cursor-pointer rounded-md"></p>
+            <div className="flex flex-col justify-between p-6 space-y-8">
+              <div className="space-y-2">
+                <p className=" font-semibold tracking-wide">
+                  Area: 2000 sqt ft
+                </p>
+                <p>Rent</p>
+                <p>Price: $ 5000 </p>
+                <div className="flex justify-between"></div>
+                <p>Location: City X, State Y</p>
+              </div>
+              <button
+                type="button"
+                className="flex btn-primary btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50"
+              >
+                Get Started
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-      {/* details card end */}
-      {/* hell */}
-
-      {/* hell */}
-
-      <div className="grid md:grid-cols-4">
-        <div className="col-span-3">
-          <h2 className="text-5xl mt-20">{id}</h2>
-          <p>{estate_title}</p>
-        </div>
-        <div></div>
       </div>
     </>
   );

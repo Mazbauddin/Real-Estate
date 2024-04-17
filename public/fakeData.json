@@ -8,8 +8,8 @@
     "status": "rent",
     "area": 2000,
     "location": "City X, State Y",
-    "facilities": ["loading docks", "large storage space", "security system"],
-    "image": "path/to/image1.jpg"
+    "facilities": ["loading docks", "large storage", "security system"],
+    "image": "https://i.ibb.co/dmKQtwX/wirehouse.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "area": 4000,
     "location": "Industrial Zone Z, State W",
     "facilities": ["production lines", "warehousing space", "office area"],
-    "image": "path/to/image2.jpg"
+    "image": "https://i.ibb.co/pyMG4TG/factory.jpg"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "area": 5000,
     "location": "Cold Chain Zone, State V",
     "facilities": ["climate control", "pallet racking", "freezer units"],
-    "image": "path/to/image3.jpg"
+    "image": "https://i.ibb.co/KqCycgq/Cold-Storage.jpg"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "quality control labs",
       "employee facilities"
     ],
-    "image": "path/to/image4.jpg"
+    "image": "https://i.ibb.co/xfyZkvK/production-plant.jpg"
   },
   {
     "id": 5,
@@ -60,8 +60,8 @@
     "status": "rent",
     "area": 55000,
     "location": "Industrial Park, State Z",
-    "facilities": ["utilities connections", "road access"],
-    "image": "path/to/image5.jpg"
+    "facilities": ["utilities connections", "road access employee facilities"],
+    "image": "https://i.ibb.co/SR0fyPs/industrail-park.jpg"
   },
   {
     "id": 6,
@@ -73,23 +73,19 @@
     "area": 70000,
     "location": "Power Plant Zone, State Y",
     "facilities": ["generation units", "transformers", "control room"],
-    "image": "path/to/image6.jpg"
+    "image": "https://i.ibb.co/7yTtrBF/power-plant.png"
   },
   {
     "id": 7,
     "estate_title": "Large-scale Industrial Complex",
     "segment_name": "Industrial Complex",
-    "description": "Comprehensive industrial complex with various facilities for manufacturing and logistics.",
+    "description": "Comprehensive industrial complex with various facilities for logistics.",
     "price": 5000000,
     "status": "rent",
     "area": 100000,
     "location": "Industrial Zone, State W",
-    "facilities": [
-      "multiple factories",
-      "warehouses",
-      "administrative buildings"
-    ],
-    "image": "path/to/image7.jpg"
+    "facilities": ["multiple factories", "administrative buildings"],
+    "image": "https://i.ibb.co/yVtQzXX/indus-complex.jpg"
   },
   {
     "id": 8,
@@ -101,7 +97,7 @@
     "area": 150000,
     "location": "Cold Storage District, State X",
     "facilities": ["large freezer units", "cold rooms", "loading docks"],
-    "image": "path/to/image8.jpg"
+    "image": "https://i.ibb.co/xYXpg94/Cold-Storage-high-capa.jpg"
   },
   {
     "id": 9,
@@ -113,6 +109,6 @@
     "area": 250000,
     "location": "Industrial Zone, State Z",
     "facilities": ["undeveloped land", "access to utilities"],
-    "image": "path/to/image9.jpg"
+    "image": "https://i.ibb.co/gyXCcPB/land-dev.jpg"
   }
 ]

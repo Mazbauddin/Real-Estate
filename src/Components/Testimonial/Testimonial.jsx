@@ -4,15 +4,16 @@ const Testimonial = () => {
       <div
         className="hero min-h-screen mt-20 text-white"
         style={{
-          backgroundImage:
-            "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
+          backgroundImage: "url(https://i.ibb.co/7yTtrBF/power-plant.png)",
         }}
       >
         <div className="hero-overlay bg-opacity-90  bg-[#091d44]"></div>
         <section className="my-8 dark:bg-gray-100 dark:text-gray-800">
-          <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
+          <div className="container flex flex-col items-center mx-auto mb-2 md:p-10 md:px-12">
             <h1 className="p-4 text-4xl font-semibold leading-none text-center">
-              What our customers are saying about us
+              WHAT WE DO <br />
+              Premium real estate services to help <br />
+              you buy your dream home
             </h1>
           </div>
           <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
@@ -28,9 +29,9 @@ const Testimonial = () => {
                     <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  <h1 className="text-2xl mb-5">Customer Focus</h1>
+                  Placing clients' needs at the forefront and providing
+                  personalized, attentive service.
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -46,7 +47,7 @@ const Testimonial = () => {
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?1"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
+                  className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -66,9 +67,9 @@ const Testimonial = () => {
                     <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  <h1 className="text-2xl mb-5">Teamwork And Collaboration</h1>
+                  Fostering a collaborative environment within the agency and
+                  working cohesively with clients.
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -84,7 +85,7 @@ const Testimonial = () => {
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?2"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
+                  className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -104,9 +105,9 @@ const Testimonial = () => {
                     <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  <h1 className="text-2xl mb-5">Trustworthiness</h1>
+                  Building trust through reliability, consistency, and
+                  fulfilling commitments.
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -122,7 +123,7 @@ const Testimonial = () => {
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?3"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
+                  className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi
@@ -142,9 +143,9 @@ const Testimonial = () => {
                     <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Voluptatibus quibusdam, eligendi exercitationem molestias
-                  possimus facere.
+                  <h1 className="text-2xl mb-5">Professionalism</h1>
+                  Maintaining high standards of conduct, expertise, and industry
+                  knowledge.
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -160,7 +161,7 @@ const Testimonial = () => {
                 <img
                   src="https://source.unsplash.com/50x50/?portrait?4"
                   alt=""
-                  className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
+                  className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
                 <p className="text-xl font-semibold leading-tight">
                   Distinctio Animi

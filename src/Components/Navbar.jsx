@@ -4,8 +4,8 @@ import useAuthHooks from "../Hooks/useAuthHooks";
 const Navbar = () => {
   const { logout, user } = useAuthHooks();
   return (
-    <div className="max-w-6xl container mx-auto bg-red-500">
-      <div className="navbar">
+    <div className="">
+      <div className="navbar  bg-white fixed z-10">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,13 +29,28 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <NavLink to={"/"}>Home</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-[#e5958e] rounded-lg mx-2 font-bold border-2 px-5 py-3 border-[#e5958e] bg-transparent hover:bg-transparent"
+                      : "font-bold px-5 py-3 mx-2"
+                  }
+                  to="/"
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <NavLink to={"/UpdateProfile"}>Update Profile</NavLink>
-              </li>
-              <li>
-                <NavLink to={"/UserProfile"}>User Profile</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "text-[#e5958e] rounded-lg mx-2 font-bold border-2 px-5 py-3 border-[#e5958e] bg-transparent hover:bg-transparent"
+                      : "font-bold px-5 py-3 mx-2"
+                  }
+                  to={"/UpdateProfile"}
+                >
+                  Update Profile
+                </NavLink>
               </li>
             </ul>
           </div>
@@ -57,13 +72,28 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <NavLink to={"/"}>Home</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#e5958e] rounded-lg mx-2 font-bold border-2 px-5 py-3 border-[#e5958e] bg-transparent hover:bg-transparent"
+                    : "font-bold px-5 py-3 mx-2"
+                }
+                to="/"
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <NavLink to={"/UpdateProfile"}>Update Profile</NavLink>
-            </li>
-            <li>
-              <NavLink to={"/UserProfile"}>User Profile</NavLink>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#e5958e] rounded-lg mx-2 font-bold border-2 px-5 py-3 border-[#e5958e] bg-transparent hover:bg-transparent"
+                    : "font-bold px-5 py-3 mx-2"
+                }
+                to={"/UpdateProfile"}
+              >
+                Update Profile
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -95,7 +125,9 @@ const Navbar = () => {
             </div>
           ) : (
             <Link to="/login">
-              <button className="btn btn-sm  btn-ghost">Login</button>
+              <button className="btn flex btn-primary  items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                Login
+              </button>
             </Link>
           )}
         </div>
