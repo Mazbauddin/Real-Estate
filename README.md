@@ -15,3 +15,4 @@ Resources:
 - [Swiper Js](https://swiperjs.com/)
 - [Firebase](https://firebase.google.com/)
 - [imgbb](https://imgbb.com/)
+- [AOS Package](https://michalsnik.github.io/aos/)
