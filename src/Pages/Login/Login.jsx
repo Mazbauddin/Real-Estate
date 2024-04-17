@@ -1,7 +1,8 @@
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "./SocialLogin";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
 import useAuthHooks from "../../Hooks/useAuthHooks";
+import PasswordReset from "../../PasswordReset/PasswordReset";
 
 const Login = () => {
   const { signInUser } = useAuthHooks();
@@ -11,16 +12,20 @@ const Login = () => {
     formState: { errors },
   } = useForm();
 
+  // navigation systems
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location?.state || "/";
+
+  // handle register
   const onSubmit = (data) => {
     const { email, password } = data;
 
-    signInUser(email, password)
-      .then((user) => {
-        console.log(user.user);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+    signInUser(email, password).then((result) => {
+      if (result.user) {
+        navigate(from);
+      }
+    });
   };
 
   return (
@@ -64,6 +69,7 @@ const Login = () => {
                 {errors.password && (
                   <span className="text-red-500">This field is required</span>
                 )}
+                <PasswordReset />
               </div>
               <div className="form-control mt-6 p-0">
                 <button className="btn btn-neutral">Login</button>

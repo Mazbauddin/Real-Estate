@@ -4,7 +4,7 @@ import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
   const estates = useLoaderData();
-  console.log(estates);
+
   return (
     <div>
       <Slider></Slider>

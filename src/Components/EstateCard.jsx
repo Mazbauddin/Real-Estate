@@ -29,14 +29,27 @@ const EstateCard = ({ estates }) => {
             <p className="dark:text-gray-800">{segment_name}</p>
             <p>{description}</p>
             <p>{status}</p>
-
-            <p>{location}</p>
+            <p>Price: {price}</p>
+            <div className="flex justify-between">
+              {facilities.map((facilities) => (
+                <a
+                  key={facilities}
+                  rel="noopener noreferrer"
+                  href="#"
+                  className="px-3 py-1 text-[#23BE0A]"
+                >
+                  {facilities}
+                </a>
+              ))}
+            </div>
+            <p>Area: {area} sq ft</p>
+            <p>Location: {location}</p>
           </div>
           <button
             type="button"
             className="flex btn-primary btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50"
           >
-            <Link to={`/estates/${id}`}>View Property</Link>
+            <Link to={`/estates-details/${id}`}>View Property</Link>
           </button>
         </div>
       </div>
