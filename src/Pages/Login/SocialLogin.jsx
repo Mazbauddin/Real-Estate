@@ -23,21 +23,25 @@ const SocialLogin = () => {
     <>
       <div className="divider">continue with</div>
       <div className="flex justify-around mb-10">
+        {/* google */}
         <FaGoogle
           onClick={() => handleSocialLogin(googleLogin)}
           className="text-[20px] cursor-pointer text-[#e5958e]"
           title="Google"
         ></FaGoogle>
+        {/* github */}
         <FaGithub
           onClick={() => handleSocialLogin(githubLogin)}
           className="text-[20px] cursor-pointer text-[#e5958e]"
           title="Github"
         ></FaGithub>
+        {/* twitter */}
         <FaTwitter
           onClick={() => handleSocialLogin(twitterLogin)}
           className=" text-[20px] cursor-pointer text-[#e5958e]"
           title="Twitter"
         ></FaTwitter>
+        {/* facebook */}
         <FaFacebook
           onClick={() => handleSocialLogin(facebookLogin)}
           className="text-[20px] cursor-pointer text-[#e5958e]"
