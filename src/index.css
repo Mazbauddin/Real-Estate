@@ -2,3 +2,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide {
+  color: rgb(44, 44, 229);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .features {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  background-image: url("./assets/1.png");
+} */
+.slide1 {
+  background-image: url("./assets/1.png");
+}
+.slide2 {
+  background-image: url("./assets/2.png");
+}
+.slide3 {
+  background-image: url("./assets/3.png");
+}
+.slide4 {
+  background-image: url("./assets/4.png");
+}

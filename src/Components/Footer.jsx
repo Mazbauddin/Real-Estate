@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="py-6 dark:bg-gray-100 dark:text-gray-900">
+    <footer className="py-6 bg-[#021640] text-white">
       <div className="container mx-auto space-y-6 divide-y dark:divide-gray-600 md:space-y-12 divide-opacity-50">
         <div className="grid grid-cols-12">
           <div className="pb-6 col-span-full md:pb-0 md:col-span-6">
@@ -36,7 +36,7 @@ const Footer = () => {
                   href="#"
                   className="hover:dark:text-violet-600"
                 >
-                  Link
+                  About Us
                 </a>
               </li>
               <li>
@@ -45,7 +45,7 @@ const Footer = () => {
                   href="#"
                   className="hover:dark:text-violet-600"
                 >
-                  Link
+                  Advertisement
                 </a>
               </li>
               <li>

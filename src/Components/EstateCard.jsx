@@ -14,7 +14,7 @@ const EstateCard = ({ estates }) => {
     image,
   } = estates;
   return (
-    <div>
+    <div className="max-w-6xl container mx-auto bg-green-500">
       <div className="max-w-xs rounded-md shadow-md bg-red-500 dark:text-gray-800 mb-10">
         <img
           src="https://source.unsplash.com/random/300x300/?2"
