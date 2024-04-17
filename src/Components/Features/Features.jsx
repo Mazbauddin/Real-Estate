@@ -12,13 +12,20 @@ const Features = () => {
           <section className="m-4 md:m-8 dark:bg-gray-100 dark:text-gray-800">
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="container mx-auto p-4 my-6 space-y-2 text-center">
-              <h2 className="text-5xl font-bold">
+              <h2
+                className="text-5xl font-bold"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 Built to empower every team
               </h2>
-              <p className="dark:text-gray-600">Libero minima optio qui</p>
             </div>
             <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              <div className="flex flex-col items-center p-4">
+              <div
+                className="flex flex-col items-center p-4"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -31,14 +38,21 @@ const Features = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <h3 className="my-3 text-3xl font-semibold">
+                  Industrial Land for Development
+                </h3>
                 <div className="space-y-1 leading-tight">
-                  <p>Similique quas ea veniam</p>
-                  <p>Tempore quasi porro</p>
-                  <p>Blanditiis aut mollitia ex</p>
+                  <p>
+                    Expansive tract of industrial land suitable for development
+                    into factories or warehouses.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center p-4">
+              <div
+                className="flex flex-col items-center p-4"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -51,14 +65,21 @@ const Features = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <h3 className="my-3 text-3xl font-semibold">
+                  High-capacity Cold Storage Facility
+                </h3>
                 <div className="space-y-1 leading-tight">
-                  <p>Similique quas ea veniam</p>
-                  <p>Tempore quasi porro</p>
-                  <p>Blanditiis aut mollitia ex</p>
+                  <p>
+                    Specialized cold storage facility with high-capacity
+                    refrigeration units.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center p-4">
+              <div
+                className="flex flex-col items-center p-4"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -71,14 +92,21 @@ const Features = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <h3 className="my-3 text-3xl font-semibold">
+                  Power Plant Facility
+                </h3>
                 <div className="space-y-1 leading-tight">
-                  <p>Similique quas ea veniam</p>
-                  <p>Tempore quasi porro</p>
-                  <p>Blanditiis aut mollitia ex</p>
+                  <p>
+                    Large-scale power generation facility capable of supplying
+                    electricity to a city.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center p-4">
+              <div
+                className="flex flex-col items-center p-4"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -91,14 +119,21 @@ const Features = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <h3 className="my-3 text-3xl font-semibold">
+                  Production Plant
+                </h3>
                 <div className="space-y-1 leading-tight">
-                  <p>Similique quas ea veniam</p>
-                  <p>Tempore quasi porro</p>
-                  <p>Blanditiis aut mollitia ex</p>
+                  <p>
+                    Modern production facility equipped for large-scale
+                    manufacturing.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center p-4">
+              <div
+                className="flex flex-col items-center p-4"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -111,14 +146,21 @@ const Features = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <h3 className="my-3 text-3xl font-semibold">
+                  Cold Storage Facility
+                </h3>
                 <div className="space-y-1 leading-tight">
-                  <p>Similique quas ea veniam</p>
-                  <p>Tempore quasi porro</p>
-                  <p>Blanditiis aut mollitia ex</p>
+                  <p>
+                    Temperature-controlled facility suitable for storing
+                    perishable goods.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col items-center p-4">
+              <div
+                className="flex flex-col items-center p-4"
+                data-aos="fade-left"
+                data-aos-duration="1000"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
@@ -131,11 +173,14 @@ const Features = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <h3 className="my-3 text-3xl font-semibold">Product</h3>
+                <h3 className="my-3 text-3xl font-semibold">
+                  Warehouse Facility
+                </h3>
                 <div className="space-y-1 leading-tight">
-                  <p>Similique quas ea veniam</p>
-                  <p>Tempore quasi porro</p>
-                  <p>Blanditiis aut mollitia ex</p>
+                  <p>
+                    Spacious warehouse suitable for storage and distribution
+                    purposes.
+                  </p>
                 </div>
               </div>
             </div>

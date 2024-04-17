@@ -18,7 +18,11 @@ const EstateDetails = () => {
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
+          <div
+            className="max-w-md"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <h1 className="mb-5 text-5xl font-bold"> Gas Power Plant </h1>
             <p className="mb-5">
               The Gas Power Plant stood like a metallic fortress against the
@@ -28,7 +32,9 @@ const EstateDetails = () => {
               reverberated through every inch of space. Within its walls, a
               symphony of activity unfolded.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+            <button className=" btn  p-3 font-semibold tracking-wide rounded-md bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white ">
+              Get Started
+            </button>
           </div>
         </div>
       </div>
@@ -39,10 +45,12 @@ const EstateDetails = () => {
           <img
             src="https://i.ibb.co/pyMG4TG/factory.jpg"
             className="w-full h-full rounded-lg"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
-          <div>
+          <div className="" data-aos="fade-left" data-aos-duration="1000">
             <h1 className="text-5xl font-bold">Factory Complex</h1>
-            <p className="py-6">
+            <p className="py-6 text-justify">
               The factory complex stood like a metallic fortress against the
               skyline, its towering smokestacks belching plumes of industrial
               might into the air. Rows of buildings stretched into the distance,
@@ -81,7 +89,7 @@ const EstateDetails = () => {
               </div>
               <button
                 type="button"
-                className="flex btn-primary btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50"
+                className="flex btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white"
               >
                 Get Started
               </button>

@@ -32,7 +32,7 @@ const Slider = () => {
         <SwiperSlide>
           <div className="slide slide1">
             <div
-              className="hero min-h-screen mt-20"
+              className="hero min-h-screen"
               style={{
                 backgroundImage:
                   "url(https://i.ibb.co/xfyZkvK/production-plant.jpg)",
@@ -40,7 +40,11 @@ const Slider = () => {
             >
               <div className="hero-overlay bg-opacity-60"></div>
               <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-md">
+                <div
+                  className="max-w-md"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
                   <h1 className="mb-5 text-5xl font-bold">Production Plant</h1>
                   <p className="mb-5">
                     Modern production facility equipped for large-scale
@@ -57,14 +61,18 @@ const Slider = () => {
         <SwiperSlide>
           <div className="slide slide2">
             <div
-              className="hero min-h-screen mt-20"
+              className="hero min-h-screen"
               style={{
                 backgroundImage:
                   "url(https://i.ibb.co/7yTtrBF/power-plant.png)",
               }}
             >
               <div className="hero-overlay bg-opacity-60"></div>
-              <div className="hero-content text-center text-neutral-content">
+              <div
+                className="hero-content text-center text-neutral-content"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="max-w-md">
                   <h1 className="mb-5 text-5xl font-bold">Power Plant</h1>
                   <p className="mb-5">
@@ -82,13 +90,17 @@ const Slider = () => {
         <SwiperSlide>
           <div className="slide slide3">
             <div
-              className="hero min-h-screen mt-20"
+              className="hero min-h-screen"
               style={{
                 backgroundImage: "url(https://i.ibb.co/pyMG4TG/factory.jpg)",
               }}
             >
               <div className="hero-overlay bg-opacity-60"></div>
-              <div className="hero-content text-center text-neutral-content">
+              <div
+                className="hero-content text-center text-neutral-content"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="max-w-md">
                   <h1 className="mb-5 text-5xl font-bold">Factory</h1>
                   <p className="mb-5">
@@ -106,14 +118,18 @@ const Slider = () => {
         <SwiperSlide>
           <div className="slide slide4">
             <div
-              className="hero min-h-screen mt-20"
+              className="hero min-h-screen"
               style={{
                 backgroundImage:
                   "url(https://i.ibb.co/SR0fyPs/industrail-park.jpg)",
               }}
             >
               <div className="hero-overlay bg-opacity-60"></div>
-              <div className="hero-content text-center text-neutral-content">
+              <div
+                className="hero-content text-center text-neutral-content"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
                 <div className="max-w-md">
                   <h1 className="mb-5 text-5xl font-bold">Industrial Park</h1>
                   <p className="mb-5">

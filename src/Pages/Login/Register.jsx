@@ -30,17 +30,24 @@ const Register = () => {
     <>
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="text-center lg:text-left">
-            <h1 className="text-5xl font-bold">Register now!</h1>
-            <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+          <div
+            className="text-center lg:text-left"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <h1 className="text-6xl lg:text-8xl font-bold text-[#e5958e]">
+              Register now!
+            </h1>
+            <p className="py-6 text-3xl lg:text-4xl">
+              Welcome to Gorib Homes Real Estate
             </p>
+            <p className="py-6 text-3xl lg:text-4xl">Please Create a Account</p>
           </div>
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           >
             <div className="card-body">
               <div className="form-control">
@@ -97,7 +104,9 @@ const Register = () => {
                 )}
               </div>
               <div className="form-control mt-6 p-0">
-                <button className="btn btn-neutral">Register</button>
+                <button className="btn flex btn-primary items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                  Register
+                </button>
               </div>
               <label className="label">
                 Already have an account?{" "}

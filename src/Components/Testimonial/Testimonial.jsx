@@ -10,14 +10,22 @@ const Testimonial = () => {
         <div className="hero-overlay bg-opacity-90  bg-[#091d44]"></div>
         <section className="my-8 dark:bg-gray-100 dark:text-gray-800">
           <div className="container flex flex-col items-center mx-auto mb-2 md:p-10 md:px-12">
-            <h1 className="p-4 text-4xl font-semibold leading-none text-center">
+            <h1
+              className="p-4 text-4xl font-semibold leading-none text-center"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               WHAT WE DO <br />
               Premium real estate services to help <br />
               you buy your dream home
             </h1>
           </div>
           <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
-            <div className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl">
+            <div
+              className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
                   <svg
@@ -55,7 +63,11 @@ const Testimonial = () => {
                 <p className="text-sm uppercase">Aliquam illum</p>
               </div>
             </div>
-            <div className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl">
+            <div
+              className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
                   <svg
@@ -93,7 +105,11 @@ const Testimonial = () => {
                 <p className="text-sm uppercase">Aliquam illum</p>
               </div>
             </div>
-            <div className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl">
+            <div
+              className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
                   <svg
@@ -131,7 +147,11 @@ const Testimonial = () => {
                 <p className="text-sm uppercase">Aliquam illum</p>
               </div>
             </div>
-            <div className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl">
+            <div
+              className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
                   <svg

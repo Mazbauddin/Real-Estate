@@ -14,8 +14,12 @@ const EstateCard = ({ estates }) => {
     image,
   } = estates;
   return (
-    <div className="max-w-7xl container mx-auto">
-      <div className="max-w-[450px] rounded-md shadow-md  mb-10 relative">
+    <div
+      className="max-w-7xl container mx-auto"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <div className="max-w-[450px] rounded-md shadow-md mb-10 relative mx-5 sm:mx-0">
         <img
           src={image}
           alt=""
