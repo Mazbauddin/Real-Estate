@@ -1,7 +1,11 @@
 const UpdateProfile = () => {
   return (
     <div>
-      <div className="flex flex-col justify-center mx-auto max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
+      <div
+        className="flex flex-col justify-center mx-auto max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+      >
         <img
           src="https://source.unsplash.com/150x150/?portrait?3"
           alt=""

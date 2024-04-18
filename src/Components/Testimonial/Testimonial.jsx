@@ -11,13 +11,12 @@ const Testimonial = () => {
         <section className="my-8 dark:bg-gray-100 dark:text-gray-800">
           <div className="container flex flex-col items-center mx-auto mb-2 md:p-10 md:px-12">
             <h1
-              className="p-4 text-4xl font-semibold leading-none text-center"
+              className="p-4 text-6xl font-semibold leading-none text-center"
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              WHAT WE DO <br />
-              Premium real estate services to help <br />
-              you buy your dream home
+              Testimonial <br />
+              What Cutomer Say's
             </h1>
           </div>
           <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
@@ -57,10 +56,8 @@ const Testimonial = () => {
                   alt=""
                   className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
-                <p className="text-xl font-semibold leading-tight">
-                  Distinctio Animi
-                </p>
-                <p className="text-sm uppercase">Aliquam illum</p>
+                <p className="text-xl font-semibold leading-tight">Mr. X</p>
+                <p className="text-sm uppercase">CEO of ABC</p>
               </div>
             </div>
             <div
@@ -79,9 +76,9 @@ const Testimonial = () => {
                     <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
-                  <h1 className="text-2xl mb-5">Teamwork And Collaboration</h1>
+                  <h1 className="text-2xl mb-5">Collaboration</h1>
                   Fostering a collaborative environment within the agency and
-                  working cohesively with clients.
+                  working.
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
@@ -99,10 +96,8 @@ const Testimonial = () => {
                   alt=""
                   className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
-                <p className="text-xl font-semibold leading-tight">
-                  Distinctio Animi
-                </p>
-                <p className="text-sm uppercase">Aliquam illum</p>
+                <p className="text-xl font-semibold leading-tight">Mr. Y</p>
+                <p className="text-sm uppercase">CEO of BBC</p>
               </div>
             </div>
             <div
@@ -141,10 +136,8 @@ const Testimonial = () => {
                   alt=""
                   className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
-                <p className="text-xl font-semibold leading-tight">
-                  Distinctio Animi
-                </p>
-                <p className="text-sm uppercase">Aliquam illum</p>
+                <p className="text-xl font-semibold leading-tight">Mr. Z</p>
+                <p className="text-sm uppercase">CEO of FFK</p>
               </div>
             </div>
             <div
@@ -183,10 +176,8 @@ const Testimonial = () => {
                   alt=""
                   className="w-16 h-16 mb-2  bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-300"
                 />
-                <p className="text-xl font-semibold leading-tight">
-                  Distinctio Animi
-                </p>
-                <p className="text-sm uppercase">Aliquam illum</p>
+                <p className="text-xl font-semibold leading-tight">Mr. DD</p>
+                <p className="text-sm uppercase">CEO of DBC</p>
               </div>
             </div>
           </div>

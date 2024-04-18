@@ -19,7 +19,7 @@ const EstateCard = ({ estates }) => {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <div className="max-w-[450px] rounded-md shadow-md mb-10 relative mx-5 sm:mx-0">
+      <div className="max-w-[400px] rounded-md shadow-md mb-10 relative mx-5 sm:mx-0">
         <img
           src={image}
           alt=""

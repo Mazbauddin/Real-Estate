@@ -4,11 +4,11 @@ const Team = () => {
       <section className="py-6  dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
           <p
-            className="p-2 text-sm font-medium tracking-wider text-center uppercase"
+            className="p-2 text-6xl font-medium tracking-wider text-center uppercase"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            Development team
+            Our team Member
           </p>
           <h1
             className="text-4xl font-bold leading-none text-center sm:text-5xl"

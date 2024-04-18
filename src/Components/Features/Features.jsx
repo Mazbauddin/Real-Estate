@@ -11,13 +11,13 @@ const Features = () => {
         <div className="hero-content text-center text-neutral-content">
           <section className="m-4 md:m-8 dark:bg-gray-100 dark:text-gray-800">
             <div className="hero-overlay bg-opacity-60"></div>
-            <div className="container mx-auto p-4 my-6 space-y-2 text-center">
+            <div className="container mx-auto p-4 my-6 space-y-2 text-center heading_title">
               <h2
-                className="text-5xl font-bold"
+                className="text-6xl font-bold "
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                Built to empower every team
+                Features
               </h2>
             </div>
             <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">

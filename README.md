@@ -7,6 +7,7 @@ Live site:
 Resources:
 
 - [React Router Dom](https://reactrouter.com/en/main)
+- [React Hook Form](https://react-hook-form.com/)
 - [Mamba UI - Components](https://mambaui.com/components)
 - [React-Hot-Toast](https://react-hot-toast.com/)
 - [React-Icons](https://react-icons.github.io/react-icons/)
