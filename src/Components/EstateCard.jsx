@@ -18,6 +18,7 @@ const EstateCard = ({ estates }) => {
       className="max-w-7xl container mx-auto"
       data-aos="fade-up"
       data-aos-duration="1000"
+      data-aos-easing="linear"
     >
       <div className="max-w-[400px] rounded-md shadow-md mb-10 relative mx-5 sm:mx-0">
         <img

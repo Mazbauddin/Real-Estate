@@ -4,14 +4,15 @@ const Team = () => {
       <section className="py-6  dark:bg-gray-100 dark:text-gray-800">
         <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
           <p
-            className="p-2 text-6xl font-medium tracking-wider text-center uppercase"
+            className="p-2 text-3xl sm:text-6xl font-medium tracking-wider text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
+            data-aos-easing="linear"
           >
-            Our team Member
+            Our Team Member
           </p>
           <h1
-            className="text-4xl font-bold leading-none text-center sm:text-5xl"
+            className=" text:2xl sm:text-4xl font-bold leading-none text-center"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
@@ -22,6 +23,7 @@ const Team = () => {
               className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#5792ff] text-white"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <img
                 alt=""
@@ -97,9 +99,10 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#5792ff] text-white"
+              className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#e5958e] text-white"
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <img
                 alt=""
@@ -178,6 +181,7 @@ const Team = () => {
               className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#5792ff] text-white"
               data-aos="fade-left"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <img
                 alt=""
@@ -253,9 +257,10 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#5792ff] text-white"
+              className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#e5958e] text-white"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <img
                 alt=""
@@ -334,6 +339,7 @@ const Team = () => {
               className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#5792ff] text-white"
               data-aos="fade-up"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <img
                 alt=""
@@ -411,9 +417,10 @@ const Team = () => {
               </div>
             </div>
             <div
-              className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#5792ff] text-white"
+              className="flex flex-col justify-center w-full px-8 mx-6 my-12 text-center rounded-md md:w-96 lg:w-80 xl:w-64 dark:bg-gray-800 dark:text-gray-100 bg-[#e5958e] text-white"
               data-aos="fade-left"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <img
                 alt=""

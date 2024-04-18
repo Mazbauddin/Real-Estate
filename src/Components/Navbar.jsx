@@ -6,11 +6,16 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="navbar bg-white fixed z-10">
-        <div
-          className="navbar-start"
-          data-aos="fade-right"
+        {/* {
+  data-aos="fade-right"
+  data-aos-duration="1000"
+
+  data-aos="fade-down"
           data-aos-duration="1000"
-        >
+          data-aos="fade-left"
+          data-aos-duration="1000"
+} */}
+        <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -66,18 +71,17 @@ const Navbar = () => {
                   src="https://i.ibb.co/djR0sdW/logo.png"
                   alt=""
                 />
-                <a className=" text-base lg:text-xl  font-bold">
+                <a className=" text-xl font-bold">
                   Gorib <span className="text-[#e5958e]">Homes</span>
+                  <p className=" text-[14px] font-bold text-[#7097eb]">
+                    Real Estate Pvt.
+                  </p>
                 </a>
               </div>
             </NavLink>
           </div>
         </div>
-        <div
-          className="navbar-center hidden lg:flex"
-          data-aos="fade-down"
-          data-aos-duration="1000"
-        >
+        <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink
@@ -105,11 +109,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div
-          className="navbar-end"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-        >
+        <div className="navbar-end">
           {user ? (
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">

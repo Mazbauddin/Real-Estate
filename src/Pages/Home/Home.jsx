@@ -14,11 +14,13 @@ const Home = () => {
       <Slider></Slider>
       <div className="max-w-6xl container mx-auto mt-20">
         <h2
-          className="text-center mb-10 text-5xl font-bold"
+          className="text-center mb-10 text-3xl sm:text-6xl font-bold"
           data-aos="fade-up"
           data-aos-duration="1000"
+          data-aos-easing="linear"
         >
-          Varied property selection <br /> in Our Site
+          Varied Property
+          <br /> Selection in Our Site
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grow gap-10">
           {estates.map((estate) => (

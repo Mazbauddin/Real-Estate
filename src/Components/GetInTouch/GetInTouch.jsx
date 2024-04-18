@@ -7,8 +7,9 @@ const GetInTouch = () => {
             className="py-6 md:py-0 md:px-6"
             data-aos="fade-right"
             data-aos-duration="1000"
+            data-aos-easing="linear"
           >
-            <h1 className="text-4xl font-bold">Get in touch</h1>
+            <h1 className="text-3xl sm:text-6xl font-bold">Get in touch</h1>
             <p className="pt-2 pb-4">
               Fill in the form to start a conversation
             </p>
@@ -58,6 +59,7 @@ const GetInTouch = () => {
             className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
             data-aos="fade-left"
             data-aos-duration="1000"
+            data-aos-easing="linear"
           >
             <label className="block">
               <span className="mb-1">Full name</span>

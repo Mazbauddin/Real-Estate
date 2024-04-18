@@ -9,21 +9,23 @@ const Testimonial = () => {
       >
         <div className="hero-overlay bg-opacity-90  bg-[#091d44]"></div>
         <section className="my-8 dark:bg-gray-100 dark:text-gray-800">
-          <div className="container flex flex-col items-center mx-auto mb-2 md:p-10 md:px-12">
-            <h1
-              className="p-4 text-6xl font-semibold leading-none text-center"
-              data-aos="fade-up"
-              data-aos-duration="1000"
-            >
-              Testimonial <br />
-              What Cutomer Say's
+          <div
+            className="container flex flex-col items-center mx-auto mb-2 md:p-10 md:px-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="linear"
+          >
+            <h1 className="p-4 text-3xl sm:text-6xl font-semibold leading-none text-center">
+              Testimonial
             </h1>
+            <p className="text:2xl sm:text-4xl"> What Customer Say</p>
           </div>
           <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
             <div
               className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
@@ -37,7 +39,7 @@ const Testimonial = () => {
                     <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
                   </svg>
                   <h1 className="text-2xl mb-5">Customer Focus</h1>
-                  Placing clients' needs at the forefront and providing
+                  Placing client needs at the forefront and providing
                   personalized, attentive service.
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -64,6 +66,7 @@ const Testimonial = () => {
               className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
               data-aos="fade-left"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
@@ -104,6 +107,7 @@ const Testimonial = () => {
               className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
               data-aos="fade-right"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">
@@ -144,6 +148,7 @@ const Testimonial = () => {
               className="flex flex-col max-w-sm mx-4 my-6 shadow-2xl"
               data-aos="fade-left"
               data-aos-duration="1000"
+              data-aos-easing="linear"
             >
               <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 dark:bg-gray-50">
                 <p className="relative px-6 py-1 text-lg italic text-center dark:text-gray-800">

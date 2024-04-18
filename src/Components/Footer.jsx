@@ -26,7 +26,10 @@ const Footer = () => {
                   </NavLink>
                   <NavLink to={"/"}>
                     <a className=" text-xl font-bold">
-                      Gorib <span className="text-[#5163eb]">Homes</span>
+                      Gorib <span className="text-[#e5958e]">Homes</span>
+                      <p className=" text-[14px] font-bold text-[#1cedf2]">
+                        Real Estate Pvt.
+                      </p>
                     </a>
                   </NavLink>
                 </div>
