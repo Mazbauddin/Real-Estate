@@ -24,13 +24,13 @@ const ErrorPage = () => {
             homepage.
           </p>
           <Link to={"/"}>
-            <a
+            <button
               rel="noopener noreferrer"
               href="#"
-              className="flex btn-primary btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white"
+              className="btn_wave btn1 rounded-md"
             >
               Back to homepage
-            </a>
+            </button>
           </Link>
         </div>
       </div>

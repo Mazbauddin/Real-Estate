@@ -111,7 +111,11 @@ const Register = () => {
                     className="text-xl cursor-pointer "
                     onClick={() => setVisible(!visible)}
                   >
-                    {visible ? <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}
+                    {visible ? (
+                      <FaEye className="text-[#e5958e]"></FaEye>
+                    ) : (
+                      <FaEyeSlash className="text-[#e5958e]"></FaEyeSlash>
+                    )}
                   </div>
                   <PasswordReset />
                 </label>
@@ -126,7 +130,10 @@ const Register = () => {
               </div>
               <label className="label">
                 Already have an account?{" "}
-                <Link to="/login" className="label-text-alt link link-hover">
+                <Link
+                  to="/login"
+                  className="label-text-alt link link-hover text-base"
+                >
                   Please Login
                 </Link>
               </label>

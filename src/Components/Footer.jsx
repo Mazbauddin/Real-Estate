@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="grid grid-cols-12">
             <div
               className="pb-6 col-span-full md:pb-0 md:col-span-6"
-              data-aos="fade-right"
+              data-aos="fade-up"
               data-aos-duration="1000"
             >
               <a
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
             <div
               className="col-span-6 text-center md:text-left md:col-span-3"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="1000"
             >
               <p className="pb-1 text-lg font-medium">Category</p>
@@ -82,7 +82,7 @@ const Footer = () => {
             </div>
             <div
               className="col-span-6 text-center md:text-left md:col-span-3"
-              data-aos="fade-left"
+              data-aos="fade-up"
               data-aos-duration="1000"
             >
               <p className="pb-1 text-lg font-medium">Category</p>

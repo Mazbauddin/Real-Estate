@@ -20,18 +20,18 @@ const EstateCard = ({ estates }) => {
       data-aos-duration="1000"
       data-aos-easing="linear"
     >
-      <div className="max-w-[400px] rounded-md shadow-md mb-10 relative mx-5 sm:mx-0">
+      <div className="max-w-[400px] rounded-md shadow-md mb-10 relative mx-5 lg:mx-0">
         <img
           src={image}
           alt=""
           className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
         />
-        <p className="absolute top-3 left-5 bg-red-500 opacity-60 w-[70px] text-center text-white cursor-pointer rounded-md">
+        <p className="absolute top-3 left-5 bg-[#33a5f1] w-[70px] text-center text-white cursor-pointer rounded-md">
           {status}
         </p>
         <div className="flex flex-col justify-between p-6 space-y-8">
           <div className="space-y-2">
-            <h2 className="text-3xl font-semibold tracking-wide text-[#e5958e] cursor-pointer">
+            <h2 className="text-2xl lg:text-3xl font-semibold tracking-wide text-[#e5958e] cursor-pointer">
               {estate_title}
             </h2>
             <p className="dark:text-gray-800">{segment_name}</p>
@@ -53,10 +53,7 @@ const EstateCard = ({ estates }) => {
             <p className="">Area: {area} sq ft</p>
             <p>Location: {location}</p>
           </div>
-          <button
-            type="button"
-            className="flex btn-primary btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white"
-          >
+          <button type="button" className="btn_wave btn1 rounded-md">
             <Link to={`/estates-details/${id}`}>View Property</Link>
           </button>
         </div>

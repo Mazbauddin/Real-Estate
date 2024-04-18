@@ -1,11 +1,11 @@
 const GetInTouch = () => {
   return (
-    <div className="mt-20">
+    <div className="py-20">
       <section className="py-6 dark:bg-gray-100 dark:text-gray-900">
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div
             className="py-6 md:py-0 md:px-6"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
@@ -57,7 +57,7 @@ const GetInTouch = () => {
           <form
             noValidate=""
             className="flex flex-col py-6 space-y-6 md:py-0 md:px-6"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-easing="linear"
           >
@@ -84,10 +84,7 @@ const GetInTouch = () => {
                 className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:dark:ring-violet-600 dark:bg-gray-100"
               ></textarea>
             </label>
-            <button
-              type="button"
-              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-[#5792ff] text-gray-50 focus:ring-[#5792ff] hover:ring-[#5792ff] tracking-wide w-full"
-            >
+            <button type="button" className="btn_wave btn2 rounded-md">
               Submit
             </button>
           </form>

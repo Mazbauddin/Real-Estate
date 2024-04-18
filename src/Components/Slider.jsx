@@ -45,12 +45,14 @@ const Slider = () => {
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
-                  <h1 className="mb-5 text-5xl font-bold">Production Plant</h1>
+                  <h1 className="mb-5 text-5xl lg:text-8xl font-bold">
+                    Production Plant
+                  </h1>
                   <p className="mb-5">
                     Modern production facility equipped for large-scale
                     manufacturing.
                   </p>
-                  <button className="btn bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                  <button className="btn_wave btn1 rounded-md">
                     Get Started
                   </button>
                 </div>
@@ -74,12 +76,14 @@ const Slider = () => {
                 data-aos-duration="1000"
               >
                 <div className="max-w-md">
-                  <h1 className="mb-5 text-5xl font-bold">Power Plant</h1>
+                  <h1 className="mb-5 text-5xl lg:text-8xl font-bold">
+                    Power Plant
+                  </h1>
                   <p className="mb-5">
                     Large-scale power generation facility capable of supplying
                     electricity to a city.
                   </p>
-                  <button className="btn bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                  <button className="btn_wave btn1 rounded-md">
                     Get Started
                   </button>
                 </div>
@@ -102,12 +106,14 @@ const Slider = () => {
                 data-aos-duration="1000"
               >
                 <div className="max-w-md">
-                  <h1 className="mb-5 text-5xl font-bold">Factory</h1>
+                  <h1 className="mb-5 text-5xl lg:text-8xl font-bold">
+                    Factory
+                  </h1>
                   <p className="mb-5">
                     State-of-the-art factory with modern equipment for
                     manufacturing processes.
                   </p>
-                  <button className="btn bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                  <button className="btn_wave btn1 rounded-md">
                     Get Started
                   </button>
                 </div>
@@ -131,12 +137,14 @@ const Slider = () => {
                 data-aos-duration="1000"
               >
                 <div className="max-w-md">
-                  <h1 className="mb-5 text-5xl font-bold">Industrial Park</h1>
+                  <h1 className="mb-5 text-5xl lg:text-8xl font-bold">
+                    Industrial Park
+                  </h1>
                   <p className="mb-5">
                     Vacant lot within a bustling industrial park, ideal for
                     development.
                   </p>
-                  <button className="btn bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                  <button className="btn_wave btn1 rounded-md">
                     Get Started
                   </button>
                 </div>

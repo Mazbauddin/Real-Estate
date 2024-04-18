@@ -6,16 +6,11 @@ const Navbar = () => {
   return (
     <div className="">
       <div className="navbar bg-white fixed z-10">
-        {/* {
-  data-aos="fade-right"
-  data-aos-duration="1000"
-
-  data-aos="fade-down"
+        <div
+          className="navbar-start -mr-10"
+          data-aos="fade-up"
           data-aos-duration="1000"
-          data-aos="fade-left"
-          data-aos-duration="1000"
-} */}
-        <div className="navbar-start">
+        >
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -71,17 +66,18 @@ const Navbar = () => {
                   src="https://i.ibb.co/djR0sdW/logo.png"
                   alt=""
                 />
-                <a className=" text-xl font-bold">
+                <a className=" text-base lg:text-xl  font-bold">
                   Gorib <span className="text-[#e5958e]">Homes</span>
-                  <p className=" text-[14px] font-bold text-[#7097eb]">
-                    Real Estate Pvt.
-                  </p>
                 </a>
               </div>
             </NavLink>
           </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div
+          className="navbar-center hidden lg:flex"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink
@@ -109,7 +105,11 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div
+          className="navbar-end -ml-16"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           {user ? (
             <div className="dropdown dropdown-end">
               <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
@@ -137,9 +137,7 @@ const Navbar = () => {
             </div>
           ) : (
             <Link to="/login">
-              <button className="btn flex btn-primary  items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
-                Login
-              </button>
+              <button className="btn_wave btn2 rounded-md">Login</button>
             </Link>
           )}
         </div>

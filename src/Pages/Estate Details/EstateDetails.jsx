@@ -23,9 +23,7 @@ const EstateDetails = () => {
               reverberated through every inch of space. Within its walls, a
               symphony of activity unfolded.
             </p>
-            <button className=" btn  p-3 font-semibold tracking-wide rounded-md bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white ">
-              Get Started
-            </button>
+            <button className="btn_wave btn2 rounded-md">Get Started</button>
           </div>
         </div>
       </div>
@@ -57,7 +55,7 @@ const EstateDetails = () => {
               Technological marvels emerged from the depths of the factory
               floor, each one a testament to human ingenuity and the relentless
               pursuit of efficiency. Yet, beneath the veneer of productivity,
-              shadows lingered. The air carried the scent of industry's toll, a
+              shadows lingered. The air carried the scent of industry toll, a
               reminder of the sacrifices made in the name of progress. Workers
               toiled under harsh conditions, their faces etched with weariness
               as they labored to keep the wheels of commerce turning. Outside
@@ -78,10 +76,7 @@ const EstateDetails = () => {
                 <div className="flex justify-between"></div>
                 <p>Location: City X, State Y</p>
               </div>
-              <button
-                type="button"
-                className="flex btn items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white"
-              >
+              <button type="button" className="btn_wave btn1 rounded-md">
                 Get Started
               </button>
             </div>

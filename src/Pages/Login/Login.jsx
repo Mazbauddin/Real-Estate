@@ -74,7 +74,11 @@ const Login = () => {
                     className="text-xl cursor-pointer "
                     onClick={() => setVisible(!visible)}
                   >
-                    {visible ? <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}
+                    {visible ? (
+                      <FaEye className="text-[#e5958e]"></FaEye>
+                    ) : (
+                      <FaEyeSlash className="text-[#e5958e]"></FaEyeSlash>
+                    )}
                   </div>
                   <PasswordReset />
                 </label>
@@ -83,13 +87,16 @@ const Login = () => {
                 )}
               </div>
               <div className="form-control mt-6 p-0">
-                <button className="btn flex  items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                <button className="btn flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
                   Login
                 </button>
               </div>
               <label className="label">
                 New here?{" "}
-                <Link to="/register" className="label-text-alt link link-hover">
+                <Link
+                  to="/register"
+                  className="label-text-alt link link-hover text-base"
+                >
                   Create an account
                 </Link>
               </label>

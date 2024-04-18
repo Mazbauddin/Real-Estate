@@ -29,23 +29,12 @@ const Features = () => {
             <div className="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
               <div
                 className="flex flex-col items-center p-4"
-                data-aos="fade-right"
+                data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
                 <FaLandmark className="text-4xl sm:text-6xl"></FaLandmark>
-                {/* <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  className="w-8 h-8 dark:text-violet-600"
-                >
-                  <path
-                    fillRule="evenodd"
-                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-                    clipRule="evenodd"
-                  ></path>
-                </svg> */}
+
                 <h3 className="my-3 text-3xl font-semibold">
                   Industrial Land for Development
                 </h3>
@@ -75,7 +64,7 @@ const Features = () => {
               </div>
               <div
                 className="flex flex-col items-center p-4"
-                data-aos="fade-left"
+                data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
@@ -92,7 +81,7 @@ const Features = () => {
               </div>
               <div
                 className="flex flex-col items-center p-4"
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
@@ -109,7 +98,7 @@ const Features = () => {
               </div>
               <div
                 className="flex flex-col items-center p-4"
-                data-aos="fade-up"
+                data-aos="fade-down"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
@@ -126,7 +115,7 @@ const Features = () => {
               </div>
               <div
                 className="flex flex-col items-center p-4"
-                data-aos="fade-left"
+                data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-easing="linear"
               >
