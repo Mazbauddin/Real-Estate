@@ -2,7 +2,7 @@
 
 Live site:
 
-- [Gorib Homes](https://real-estate-assignment-9.netlify.app/)
+- [Gorib Homes Real Estate Pvt.](https://react-real-estate-238da.web.app/)
 
 Resources:
 

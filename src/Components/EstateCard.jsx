@@ -24,7 +24,7 @@ const EstateCard = ({ estates }) => {
         <img
           src={image}
           alt=""
-          className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500 "
+          className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
         />
         <p className="absolute top-3 left-5 bg-red-500 opacity-60 w-[70px] text-center text-white cursor-pointer rounded-md">
           {status}

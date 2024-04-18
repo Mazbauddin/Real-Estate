@@ -15,7 +15,7 @@ const Home = () => {
       <div className="max-w-6xl container mx-auto mt-20">
         <h2
           className="text-center mb-10 text-3xl sm:text-6xl font-bold"
-          data-aos="fade-up"
+          data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-easing="linear"
         >

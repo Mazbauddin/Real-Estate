@@ -86,7 +86,7 @@ const GetInTouch = () => {
             </label>
             <button
               type="button"
-              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-violet-600 text-gray-50 focus:ring-violet-600 hover:ring-violet-600 tracking-wide w-full"
+              className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ring-opacity-75 bg-[#5792ff] text-gray-50 focus:ring-[#5792ff] hover:ring-[#5792ff] tracking-wide w-full"
             >
               Submit
             </button>

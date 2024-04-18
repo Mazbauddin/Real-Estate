@@ -1,4 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import { FaEye } from "react-icons/fa";
+import { FaEyeSlash } from "react-icons/fa";
+import { useState } from "react";
 import SocialLogin from "./SocialLogin";
 import { useForm } from "react-hook-form";
 import useAuthHooks from "../../Hooks/useAuthHooks";
@@ -28,6 +31,8 @@ const Login = () => {
     });
   };
 
+  // visible
+  const [visible, setVisible] = useState(true);
   return (
     <>
       <div className="hero min-h-screen bg-base-200">
@@ -56,19 +61,29 @@ const Login = () => {
                 <label className="label">
                   <span className="label-text">Password</span>
                 </label>
-                <input
-                  type="text"
-                  placeholder="password"
-                  className="input input-bordered"
-                  {...register("password", { required: true })}
-                />
+
+                <label className="input input-bordered flex items-center gap-2">
+                  <input
+                    type={visible ? "text" : "password"}
+                    className="grow"
+                    placeholder="password"
+                    {...register("password", { required: true })}
+                  />
+
+                  <div
+                    className="text-xl cursor-pointer "
+                    onClick={() => setVisible(!visible)}
+                  >
+                    {visible ? <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}
+                  </div>
+                  <PasswordReset />
+                </label>
                 {errors.password && (
                   <span className="text-red-500">This field is required</span>
                 )}
-                <PasswordReset />
               </div>
               <div className="form-control mt-6 p-0">
-                <button className="btn flex btn-primary items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
+                <button className="btn flex  items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md  bg-[#e5958e] border-transparent border-2 hover:bg-transparent hover:border-[#e5958e] hover:text-[#e5958e] text-white">
                   Login
                 </button>
               </div>
@@ -87,7 +102,7 @@ const Login = () => {
             data-aos-duration="1000"
           >
             <h1 className="text-6xl lg:text-8xl font-bold text-[#e5958e]">
-              Login now!
+              Login Now!
             </h1>
             <p className="py-6  text-3xl lg:text-4xl">
               Welcome to Gorib Homes Real Estate
